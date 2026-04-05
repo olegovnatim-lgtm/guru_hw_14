@@ -1,5 +1,6 @@
 import logging
 import pytest
+import os
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service as ChromeService
@@ -9,6 +10,7 @@ import attach
 
 
 def pytest_configure(config):
+    os.makedirs("logs", exist_ok=True)
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s | %(levelname)-8s | %(name)-25s | %(message)s",
