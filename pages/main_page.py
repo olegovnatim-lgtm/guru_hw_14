@@ -29,17 +29,9 @@ class MainPage(BasePage):
         with allure.step("В верхнем меню кликнуть на кнопку 'Наши проекты'"):
             self.click_element(self.OUR_PROJECTS)
 
-    def is_experts_block_visible(self):
-        with allure.step("Проверить наличие соответствующих элементов во вьюпорте"):
-            return self.wait_for_in_viewport(self.EXPERTS_BLOCK)
-
     def click_about_company(self):
         with allure.step("В верхнем меню кликнуть на кнопку 'О компании'"):
             self.click_element(self.ABOUT_COMPANY)
-
-    def click_teams_and_vacancies(self):
-        with allure.step("В верхнем меню кликнуть на кнопку 'Команды и вакансии'"):
-            self.click_element(self.TEAMS_AND_VACANCIES)
 
     def click_all_vacancies(self):
         with allure.step("Кликнуть на кнопку 'Все вакансии Lamoda'"):

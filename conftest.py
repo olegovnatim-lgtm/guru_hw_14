@@ -52,11 +52,11 @@ def driver():
         "browserVersion": "128.0",
         "selenoid:options": {
             "enableVNC": True,
-            "enableVideo": True
+            "enableVideo": True,
         }
     }
     options.capabilities.update(selenoid_capabilities)
-    options.add_argument("--window-size=1920,1080")
+    options.add_argument("--start-maximized")
 
     driver = webdriver.Remote(
         command_executor="https://user1:1234@selenoid.autotests.cloud/wd/hub",
