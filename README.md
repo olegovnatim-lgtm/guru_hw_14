@@ -8,6 +8,8 @@
 - [Запуск в CI/CD](#запуск-в-cicd)
 - [Allure отчёт](#allure-отчёт)
 - [Уведомления в Telegram](#уведомления-в-telegram)
+- [Интеграция с Allure TestOps](#интеграция-с-allure-testops)
+- [Интеграция с Jira](#интеграция-с-jira)
 
 ---
 
@@ -102,3 +104,17 @@ allure serve allure-results
 - 🔗 Ссылку на Allure отчёт
 
 ![Уведомление в Telegram](images_md/telegram.png)
+
+## Интеграция с Allure TestOps
+
+В Allure TestOps хранится тест-план с ручными и автоматизированными тестами.  
+Результаты автозапусков из Jenkins автоматически отображаются в Allure TestOps.
+
+![Allure TestOps](images_md/allure_testops.png)
+
+## Интеграция с Jira
+
+Тест-кейсы и результаты запусков связаны с задачами в Jira.  
+Из каждой задачи можно перейти к связанным тестам и результатам их выполнения.
+
+![Jira](images_md/jira.png)
