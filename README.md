@@ -15,11 +15,14 @@
 
 ## Технологии и инструменты
 
-![Python](https://img.shields.io/badge/Python-3.14-blue)
-![Selenium](https://img.shields.io/badge/Selenium-4.41-green)
-![Pytest](https://img.shields.io/badge/Pytest-9.0-orange)
-![Allure](https://img.shields.io/badge/Allure-2.15-yellow)
-![Selenoid](https://img.shields.io/badge/Selenoid-remote-lightgrey)
+<img src="images_md/python.svg" width="40" height="40"/>
+<img src="images_md/selenium.svg" width="40" height="40"/>
+<img src="images_md/pytest.svg" width="40" height="40"/>
+<img src="images_md/jenkins.svg" width="40" height="40"/>
+<img src="images_md/jira.svg" width="40" height="40"/>
+<img src="images_md/telegram.svg" width="40" height="40"/>
+<img src="images_md/allure.png" width="40" height="40"/>
+<img src="images_md/selenoid.png" width="40" height="40"/>
 
 ## Структура проекта
 
