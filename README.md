@@ -15,14 +15,7 @@
 
 ## Технологии и инструменты
 
-<img src="images_md/python.svg" width="40" height="40"/>
-<img src="images_md/selenium.svg" width="40" height="40"/>
-<img src="images_md/pytest.svg" width="40" height="40"/>
-<img src="images_md/jenkins.svg" width="40" height="40"/>
-<img src="images_md/jira.svg" width="40" height="40"/>
-<img src="images_md/telegram.svg" width="40" height="40"/>
-<img src="images_md/allure.png" width="40" height="40"/>
-<img src="images_md/selenoid.png" width="40" height="40"/>
+<img src="images_md/python.svg" width="40" height="40"/><img src="images_md/selenium.svg" width="40" height="40"/><img src="images_md/pytest.svg" width="40" height="40"/><img src="images_md/jenkins.svg" width="40" height="40"/><img src="images_md/jira.svg" width="40" height="40"/><img src="images_md/telegram.svg" width="40" height="40"/> <img src="images_md/allure.png" width="40" height="40"/> <img src="images_md/selenoid.png" width="40" height="40"/>
 
 ## Структура проекта
 
